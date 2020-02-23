@@ -1,0 +1,82 @@
+.header {
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.inputSection {
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.dataSetWrapper #searchValue{
+    width: 30%;
+    height: 40px;
+    text-align: center;
+}
+
+#dataSetSize{
+    width: 30%;
+    height: 40px;
+    text-align: center;
+}
+
+#startBtn{
+    width: 15%;
+    height: 46px;
+}
+
+#searchValue{
+    width: 25%;
+    height: 40px;
+    text-align: center;
+}
+
+#messageSection{
+    margin-top: 10px;
+}
+
+.dataSetWrapper button{
+    width: 30%;
+    height: 46px;
+}
+
+.algoTypeInput{
+    line-height: 50px;
+}
+
+.messageSection{
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    background: #7fffd4;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+.visualSection {
+    width: 1000px;
+    margin: auto;
+    position: relative;
+}
+
+.visualSection span {
+    text-align: center;
+    color: #ffffff;
+    background: #add8e6;
+    margin: 2px;
+    display: inline-block;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 600px;
+    margin-left: calc(50% - 300px);
+    text-align: center;
+    color: #666;
+    bottom: 10px;
+}
+

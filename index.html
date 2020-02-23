@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Algo</title></head>
+<link href="style.css" rel="stylesheet">
+<body>
+<section class="header">
+  <h1>Algorithm Visualizer</h1>
+</section>
+<section class="inputSection">
+  <form>
+    <div class="dataSetWrapper">
+      <div id="dataSet">
+      </div>
+      <label for="dataSetSize">
+        <input id="dataSetSize" type="text" placeholder="Data set size in number, default is 20"/>
+      </label>
+      <button onclick="generateRandomDataSet(); return false;">
+        Choose a random integer dataset
+      </button>
+    </div>
+    <div class="algoTypeInput">
+      <label><input name="algoType" type="radio" value="selection-sort" checked="checked" />Selection Sort</label>
+      <label><input name="algoType" type="radio" value="bubble-sort"/>Bubble Sort</label>
+      <label><input name="algoType" type="radio" value="linear-search" />Linear Search</label>
+      <label><input name="algoType" type="radio" value="binary-search"/>Binary Search</label>
+    </div>
+    <div>
+      <label for="searchValue">
+        <input id="searchValue" type="text" placeholder="Value for searching"/>
+      </label>
+      <button id="startBtn" class="startBtn" onclick="selectAlgo(); return false;">Start Visualisation</button>
+    </div>
+  </form>
+</section>
+
+<section id="messageSection" class="messageSection">
+  Select Algorithm From Above. If You Are Performing Search, Provide Value for Searching
+</section>
+
+<section id="visualSection" class="visualSection">
+
+</section>
+<footer>
+  This Algorithm Visualizer is Part of <|>esto Capstone Project
+</footer>
+<script src="index.js"></script>
+</body>
+</html>
